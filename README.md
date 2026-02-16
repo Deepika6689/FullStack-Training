@@ -63,7 +63,7 @@ You can open files in a browser (for HTML) or run Python scripts locally.
 ```bash
 python atm_simulation.py
 ```
-🎯 My Goals
+### 🎯 My Goals
 
 This repository helps me:
 
@@ -72,19 +72,22 @@ This repository helps me:
 ✔ Build a portfolio over time
 ✔ Prepare for full-stack development roles
 
-📫 Connect With Me
+---
 
-I’m always learning and improving.
+## 📫 Connect With Me
+
+I’m always learning and improving.  
 Feel free to:
 
-Add suggestions
+- Add suggestions  
+- Open issues  
+- Comment on improvements  
 
-Open issues
+Let’s grow together! 💡  
 
-Comment on improvements
+---
 
-Let’s grow together! 💡
-🙌 Thank You
+## 🙌 Thank You
 
-Thanks for exploring my learning repository 🙏
+Thanks for exploring my learning repository 🙏  
 I’ll continue updating this as I learn more every day!
