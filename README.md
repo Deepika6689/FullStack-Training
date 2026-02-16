@@ -67,10 +67,10 @@ python atm_simulation.py
 
 This repository helps me:
 
-✔ Track my learning progress
-✔ Practice real code examples
-✔ Build a portfolio over time
-✔ Prepare for full-stack development roles
+-✔ Track my learning progress
+-✔ Practice real code examples
+-✔ Build a portfolio over time
+-✔ Prepare for full-stack development roles
 
 ---
 
