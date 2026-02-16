@@ -63,14 +63,15 @@ You can open files in a browser (for HTML) or run Python scripts locally.
 ```bash
 python atm_simulation.py
 ```
-### 🎯 My Goals
+## 🎯 My Goals
 
 This repository helps me:
 
--✔ Track my learning progress
--✔ Practice real code examples
--✔ Build a portfolio over time
--✔ Prepare for full-stack development roles
+- ✔ Track my learning progress  
+- ✔ Practice real code examples  
+- ✔ Build a portfolio over time  
+- ✔ Prepare for full-stack development roles  
+
 
 ---
 
