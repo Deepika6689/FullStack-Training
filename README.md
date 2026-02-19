@@ -11,8 +11,9 @@
 ## 💼 Internship Experience
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Deepika6689/assets/main/pentagonspace_logo.jpg" width="180">
+  <img src="https://raw.githubusercontent.com/Deepika6689/assets/main/pentagonspace_logo.jpg" width="140">
 </p>
+
 
 <h3 align="center">Software Development Intern – Pentagon Space</h3>
 
