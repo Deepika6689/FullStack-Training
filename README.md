@@ -43,12 +43,14 @@ This repository includes:
 
 ## 📁 Project Structure
 ```
-📦 FullStack-Training
+📦FullStack-Training
 ├── HTML.pdf
 ├── htm.html
 ├── lists_practice.html
 ├── atm_simulation.py
-├── …
+├── employee-table.html
+├── foodmenu.html
+├── resume.html
 ```
 
 Each file here represents a learning artifact — something I practiced or explored.
