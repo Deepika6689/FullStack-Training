@@ -6,6 +6,25 @@
 ![Python](https://img.shields.io/badge/Skill-Python-3776AB?logo=python)
 
 ---
+## 💼 Internship Experience
+
+<p align="center">
+  <img src="![pentagonspace_logo](https://github.com/user-attachments/assets/b14c1b6d-c867-4698-adf0-624e12b9c7b7)
+" width="180">
+</p>
+
+<h3 align="center">Software Development Intern – Pentagon Space</h3>
+
+Currently working as a **Software Development Intern** at Pentagon Space, gaining hands-on experience in:
+
+- Real-world development tasks  
+- Writing clean and structured code  
+- Understanding industry workflows  
+- Collaborative team environment  
+- Improving problem-solving skills  
+
+This internship is helping me bridge academic learning with real-world software development.
+
 ## 🧠 What’s Inside
 
 ### 📁 HTML Practice Projects
