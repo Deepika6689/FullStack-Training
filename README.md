@@ -11,22 +11,31 @@
 ## 💼 Internship Experience
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Deepika6689/assets/main/pentagonspace_logo.jpg" width="140">
+  <img src="https://raw.githubusercontent.com/Deepika6689/assets/main/pentagonspace_logo.jpg" height="130">
 </p>
 
+<h2 align="center">
+  🚀 Software Development Intern  
+</h2>
 
-<h3 align="center">Software Development Intern – Pentagon Space</h3>
+<h3 align="center">
+  🏢 Pentagon Space
+</h3>
 
+<p align="center">
+  <i>Industry Exposure | Real-World Development | Professional Growth</i>
+</p>
 
-Currently working as a **Software Development Intern** at Pentagon Space, gaining hands-on experience in:
+---
 
-- Real-world development tasks  
-- Writing clean and structured code  
-- Understanding industry workflows  
-- Collaborative team environment  
-- Improving problem-solving skills  
+Currently working as a **Software Development Intern** at **Pentagon Space**, where I am gaining hands-on experience in:
 
-This internship is helping me bridge academic learning with real-world software development.
+✨ Real-world development tasks  
+✨ Writing clean and structured production-level code  
+✨ Understanding industry workflows and team collaboration  
+✨ Strengthening problem-solving and debugging skills  
+
+> This internship is helping me bridge academic knowledge with practical software development experience.
 
 ## 🧠 What’s Inside
 
