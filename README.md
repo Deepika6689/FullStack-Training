@@ -6,6 +6,21 @@
 ![Python](https://img.shields.io/badge/Skill-Python-3776AB?logo=python)
 
 ---
+## 🧠 What’s Inside
+
+### 📁 HTML Practice Projects
+
+• **resume.html** – Simple resume webpage using basic HTML structure  
+• **employee-table.html** – Employee details displayed using HTML tables  
+• **lists_practice.html** – Practice file for ordered, unordered, and nested lists  
+• **foodmenu.html** – Restaurant food menu designed using HTML  
+
+These files help me practice core HTML concepts like:
+- Headings
+- Paragraphs
+- Lists
+- Tables
+- Page structure
 
 ## 📌 About This Repository
 
