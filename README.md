@@ -9,7 +9,7 @@
 ## 💼 Internship Experience
 
 <p align="center">
-  <img src="![pentagonspace_logo](https://github.com/user-attachments/assets/b14c1b6d-c867-4698-adf0-624e12b9c7b7)
+  <img src="‪C:\Users\DEEPIKA\Downloads\pentagonspace_logo.jpg
 " width="180">
 </p>
 
