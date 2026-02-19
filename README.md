@@ -6,7 +6,7 @@
 ![Python](https://img.shields.io/badge/Skill-Python-3776AB?logo=python)
 
 ---
-## 💼 Internship Experience
+
 
 ## 💼 Internship Experience
 
