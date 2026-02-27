@@ -76,12 +76,19 @@ This repository includes:
 ```
 📦FullStack-Training
 ├── HTML.pdf
-├── htm.html
-├── lists_practice.html
+├── README.md
 ├── atm_simulation.py
+│
+├── containers.html
 ├── employee-table.html
 ├── foodmenu.html
+├── htm.html
+├── html-lists-practice.html
+├── lists_practice.html
+│
+├── login_page.html
 ├── resume.html
+└── updated-resume.html
 ```
 
 Each file here represents a learning artifact — something I practiced or explored.
