@@ -89,6 +89,9 @@ This repository includes:
 ├── login_page.html
 ├── resume.html
 └── updated-resume.html
+└──navbar.html
+└──NAVBAR.html
+
 ```
 
 Each file here represents a learning artifact — something I practiced or explored.
