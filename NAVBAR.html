@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            
+        }
+        nav{
+            height: 75px;
+            
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 0% 10px;
+        }
+        .left{
+            display :flex;
+            align-items: center;
+            gap: 40px;
+        }
+        #brand{
+            font-size: 20px;
+            font-weight: bolder;
+            
+        }
+        #Menu a{
+            color: white;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        #Menu a:hover{
+            color: red;
+        }
+          form{
+            display: flex;
+            gap: 10px;
+        }
+
+        input{
+            padding: 5px;
+        }
+
+        button{
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        .nav1,.nav1 #brand{
+            background-color: black;
+            color: white;
+        }
+        .nav2,.nav2 #brand{
+            background-color: blue;
+            color: white;
+        }
+        .nav3 ,.nav3 #brand{
+            background-color: #87CEEB;
+            color: black;
+
+        }
+        .nav3 #Menu a{
+            color: black;
+        }
+         .nav3 #Menu a:hover{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav1">
+          <div class="left">
+        <div id="brand">Brand</div>
+        <div id="Menu">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Product</a>
+        </div>
+        </div>
+        <div>
+            <form>
+            <input type="text" placeholder="Search">
+            <button>Search</button>
+            </form>
+        </div> 
+            
+    </nav>
+    <nav class="nav2">
+          <div class="left">
+        <div id="brand">Brand</div>
+        <div id="Menu">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Product</a>
+        </div>
+        </div>
+        <div>
+            <form>
+            <input type="text" placeholder="Search">
+            <button>Search</button>
+            </form>
+        </div>
+            
+    </nav>
+    <nav class="nav3">
+          <div class="left">
+        <div id="brand">Brand</div>
+        <div id="Menu">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Product</a>
+        </div>
+        </div>
+        <div>
+            <form>
+            <input type="text" placeholder="Search">
+            <button>Search</button>
+            </form>
+        </div>
+            
+    </nav>
+    
+</body>
+</html>
