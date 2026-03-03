@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+            height: 75px;
+            background-color: #000000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #parent {
+            height: 600px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            
+        }
+
+        #child1,
+        #child2,
+        #child3 {
+            height: 400px;
+            width: 400px;
+            border: 2px solid black;
+            border-radius: 15px;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            padding-top: 20px;
+          
+        }
+
+        img {
+            width: 250px;
+            height: 250px;
+        }
+
+        #KM {
+            border: 2px solid black;
+            height: 35px;
+            width: 200px;
+            border-radius: 7px;
+            padding-left: 10px;
+        }
+
+        #button {
+            background-color: black;
+            color: white;
+            height: 40px;
+            width: 150px;
+            border-radius: 8px;
+            border: none;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <h1 style="margin-left: 600px; color: white;">Uber</h1>
+    </nav>
+        <div id="parent">
+            <div id="child1">
+                <img src="https://static.vecteezy.com/system/resources/previews/021/017/112/large_2x/bike-front-view-3d-illustration-transparent-background-png.png"
+                    alt="Profile Picture" width="300" height="300">
+                <center>
+                    <input type="email" id="KM" placeholder="Enter KM"><br><br>
+                    <button id="button">BOOK NOW</button>
+                </center>
+            </div>
+            <div id="child2">
+                <img src="https://www.kindpng.com/picc/m/152-1526578_auto-rickshaw-vector-png-transparent-png.png"
+                    alt="Profile Picture" width="300" height="300">
+                <center>
+                    <input type="email" id="KM" placeholder="Enter KM"><br><br>
+                    <button id="button">BOOK NOW</button>
+                </center>
+            </div>
+            <div id="child3">
+                <img src="https://tse3.mm.bing.net/th/id/OIP.EbFnX1xtNjYjtx8HpgP2eQHaHa?w=552&h=552&rs=1&pid=ImgDetMain&o=7&rm=3"
+                    alt="Profile Picture" width="300" height="300">
+                <center>
+                    <input type="email" id="KM" placeholder="Enter KM"><br><br>
+                    <button id="button">BOOK NOW</button>
+                </center>
+            </div>
+        </div>
+   
+</body>
+
+</html>
