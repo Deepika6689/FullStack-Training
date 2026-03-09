@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Solar System</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+#solarsystem{
+height:100vh;
+background-image:url("https://wallpaperaccess.com/full/5586763.jpg");
+background-size:cover;
+position:relative;
+}
+
+#sun{
+height:120px;
+width:120px;
+border-radius:50%;
+background-image:url("https://th.bing.com/th/id/R.3ab61b2566db7a3ea287c84cbe366a83?rik=Lkm%2buIkQWyV%2fxg&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fsun-png-bright-sun-2249.png&ehk=RFiM7TYhJPpGfUBJjrBSqgbayQ%2bQ1B8qv7ZO9WW9Uv8%3d&risl=&pid=ImgRaw&r=0");
+background-size:cover;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+
+#orbit1{
+height:170px;
+width:170px;
+border:1px solid white;
+border-radius:50%;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+animation:rotate 8s linear infinite;
+}
+
+#mercury{
+height:20px;
+width:20px;
+background-image:url("https://upload.wikimedia.org/wikipedia/commons/4/4a/Mercury_in_true_color.jpg");
+background-size:cover;
+border-radius:50%;
+position:absolute;
+top:-6px;
+left:50%;
+}
+
+#orbit2{
+height:250px;
+width:250px;
+border:1px solid white;
+border-radius:50%;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+animation:rotate 6s linear infinite;
+}
+
+#venus{
+height:25px;
+width:25px;
+background-image:url("https://images.rawpixel.com/image_png_social_square/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI1LTAxL3Jhd3BpeGVsX29mZmljZV8zMV90ZWxlc2NvcGVfcGhvdG9ncmFwaHlfb2ZfYV92ZW51c19pc29sYXRlZF9vbl8yMGM0Zjc5Yy02ZDZhLTQxYjctYTI0YS00ODlmZTQ1YThiNmUtbTVuczg5cGkucG5n.png");
+background-size:cover;
+border-radius:50%;
+position:absolute;
+top:-9px;
+left:50%;
+}
+
+#orbit3{
+height:350px;
+width:350px;
+border:1px solid white;
+border-radius:50%;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+animation:rotate 10s linear infinite;
+}
+
+#earth{
+height:35px;
+width:35px;
+background-image:url("https://purepng.com/public/uploads/large/purepng.com-earthearthplanetglobethird-planet-from-the-sun-1411526987924uaycc.png");
+background-size:cover;
+border-radius:50%;
+position:absolute;
+top:-11px;
+left:50%;
+}
+
+#orbit4{
+height:450px;
+width:450px;
+border:1px solid white;
+border-radius:50%;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+animation:rotate 7s linear infinite;
+}
+
+#mars{
+height:25px;
+width:25px;
+background-image:url("https://pngimg.com/uploads/mars_planet/mars_planet_PNG7.png");
+background-size:cover;
+border-radius:50%;
+position:absolute;
+top:-8px;
+left:50%;
+}
+
+#orbit5{
+height:590px;
+width:590px;
+border:1px solid white;
+border-radius:50%;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+animation:rotate 11s linear infinite;
+}
+
+#jupyter{
+height:45px;
+width:45px;
+background-image:url("https://images.rawpixel.com/image_png_social_square/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTEwL2xhdXJhc3RlZmFubzI2Nl9leHRyZWFtX2Nsb3NlZC11cF9waG90b2dyYXBoeV9vZl9qdXBpdGVyX3BsYW5ldF8wNjcwZDU3OC1iOTY5LTRlNmItYTIyYy1lMTEwYjJkMTQ3OGMucG5n.png");
+background-size:cover;
+border-radius:50%;
+position:absolute;
+top:-22px;
+left:50%;
+}
+
+#orbit6{
+height:700px;
+width:700px;
+border:1px solid white;
+border-radius:50%;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+animation:rotate 10s linear infinite;
+}
+
+#saturn{
+height:35px;
+width:35px;
+background-image:url("https://i.pinimg.com/originals/c0/c9/47/c0c94793d3b0905a3e45c4201033b1cb.jpg");
+background-size:cover;
+border-radius:50%;
+position:absolute;
+top:-17px;
+left:50%;
+}
+
+@keyframes rotate{
+from{
+transform:translate(-50%,-50%) rotate(0deg);
+}
+to{
+transform:translate(-50%,-50%) rotate(360deg);
+}
+}
+</style>
+</head>
+
+<body>
+
+<div id="solarsystem">
+
+<div id="sun"></div>
+
+<div id="orbit1">
+<div id="mercury"></div>
+</div>
+
+<div id="orbit2">
+<div id="venus"></div>
+</div>
+
+<div id="orbit3">
+<div id="earth"></div>
+</div>
+
+<div id="orbit4">
+<div id="mars"></div>
+</div>
+
+<div id="orbit5">
+<div id="jupyter"></div>
+</div>
+
+<div id="orbit6">
+<div id="saturn"></div>
+</div>
+
+</div>
+
+</body>
+</html>
