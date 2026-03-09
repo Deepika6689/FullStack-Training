@@ -74,23 +74,24 @@ This repository includes:
 
 ## 📁 Project Structure
 ```
-📦FullStack-Training
-├── HTML.pdf
+📦 FullStack-Training
+│
 ├── README.md
+├── HTML.pdf
 ├── atm_simulation.py
 │
 ├── containers.html
 ├── employee-table.html
 ├── foodmenu.html
-├── htm.html
 ├── html-lists-practice.html
 ├── lists_practice.html
-│
 ├── login_page.html
 ├── resume.html
-└── updated-resume.html
-└──navbar.html
-└──NAVBAR.html
+├── updated-resume.html
+├── navbar.html
+│
+└── assets
+    └── pentagonspace_logo.jpg
 
 ```
 
