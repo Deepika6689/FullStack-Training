@@ -13,25 +13,25 @@
                  <input type="text" id="display">
             </section>
             <section>
-                <div class="boxes">+</div>
-                <div class="boxes">-</div>
-                <div class="boxes">*</div>
-                <div class="boxes">/</div>
+                <div class="boxes" onclick="addition()">+</div>
+                <div class="boxes" onclick="substraction()">-</div>
+                <div class="boxes" onclick="multiplication()">*</div>
+                <div class="boxes" onclick="division()">/</div>
             </section>
              <section>
-                <div class="boxes">7</div>
-                <div class="boxes">8</div>
                 <div class="boxes">9</div>
-                <div class="boxes">4</div>
+                <div class="boxes">8</div>
+                <div class="boxes">7</div>
+                <div class="boxes">6</div>
             </section>
              <section>
                 <div class="boxes">5</div>
-                <div class="boxes">6</div>
-                <div class="boxes">1</div>
+                <div class="boxes">4</div>
+                <div class="boxes">3</div>
                 <div class="boxes">2</div>
             </section>
              <section>
-                <div class="boxes">3</div>
+                <div class="boxes">1</div>
                 <div class="boxes">0</div>
                 <div class="boxes">.</div>
                 <div class="boxes">C</div>
@@ -41,5 +41,30 @@
             </section>
         </div>
     </div>
+
+
+    <script>
+        function addition(){
+            let a = Number(prompt("Enter a"));
+            let b = Number(prompt("Enter b"));
+            console.log(`the addition of ${a} and ${b} is ${a + b}`);
+        }
+
+        function substraction(){
+            let a = Number(prompt("Enter a"));
+            let b = Number(prompt("Enter b"));
+            console.log(`the substraction of ${a} and ${b} is ${a - b}`);
+        }
+         function multiplication(){
+            let a = Number(prompt("Enter a"));
+            let b = Number(prompt("Enter b"));
+            console.log(`the multiplication of ${a} and ${b} is ${a * b}`);
+        }
+         function division(){
+            let a = Number(prompt("Enter a"));
+            let b = Number(prompt("Enter b"));
+            console.log(`the division of ${a} and ${b} is ${a / b}`);
+        }
+    </script>
 </body>
 </html>
