@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uber UI Clone</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+
+        nav {
+            height: 75px;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav h1 {
+            color: white;
+            font-size: 28px;
+        }
+
+
+        #parent {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            flex-wrap: wrap;
+            padding: 40px;
+            background-color: #f4f4f4;
+        }
+
+        .card {
+            height: 400px;
+            width: 320px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .card img {
+            width: 200px;
+            height: 200px;
+            object-fit: contain;
+        }
+
+        .card input {
+            height: 35px;
+            width: 200px;
+            border-radius: 7px;
+            border: 1px solid #ccc;
+            padding-left: 10px;
+        }
+
+
+        .card button {
+            background-color: black;
+            color: white;
+            height: 40px;
+            width: 150px;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .card button:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <h1>Uber</h1>
+    </nav>
+
+    <div id="parent">
+
+        <div class="card">
+            <img
+                src="https://static.vecteezy.com/system/resources/previews/021/017/112/large_2x/bike-front-view-3d-illustration-transparent-background-png.png">
+            <input id="kilometer1" type="number" placeholder="Enter KM">
+            <button onclick="uber1()">BOOK NOW</button>
+        </div>
+
+        <div class="card">
+            <img src="https://www.kindpng.com/picc/m/152-1526578_auto-rickshaw-vector-png-transparent-png.png">
+            <input id="kilometer2" type="number" placeholder="Enter KM">
+            <button onclick="uber2()">BOOK NOW</button>
+        </div>
+
+        <div class="card">
+            <img
+                src="https://tse3.mm.bing.net/th/id/OIP.EbFnX1xtNjYjtx8HpgP2eQHaHa?w=552&h=552&rs=1&pid=ImgDetMain&o=7&rm=3">
+            <input id="kilometer3" type="number" placeholder="Enter KM">
+            <button onclick="uber3()">BOOK NOW</button>
+        </div>
+
+    </div>
+
+
+
+    <script>
+        function uber1() {
+            let input = document.getElementById("kilometer1").value;
+            alert(`total fare for ${input} kilometers is ${input * 10} rupees`);
+        }
+         function uber2() {
+            let input = document.getElementById("kilometer2").value;
+            alert(`total fare for ${input} kilometers is ${input * 10} rupees`);
+        }
+         function uber3() {
+            let input = document.getElementById("kilometer3").value;
+            alert(`total fare for ${input} kilometers is ${input * 10} rupees`);
+        }
+
+    </script>
+
+    // JavaScript code for handling booking logic can be added here
+</body >
+</html >
