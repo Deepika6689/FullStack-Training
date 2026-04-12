@@ -3,68 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
     <link rel="stylesheet" href="./calsi.css">
 </head>
 <body>
+
     <div id="calsi-holder">
         <div id="calculator">
+
             <section>
-                 <input type="text" id="display">
+                <input type="text" id="display" readonly>
             </section>
+
             <section>
-                <div class="boxes" onclick="addition()">+</div>
-                <div class="boxes" onclick="substraction()">-</div>
-                <div class="boxes" onclick="multiplication()">*</div>
-                <div class="boxes" onclick="division()">/</div>
+                <div class="boxes" onclick="appendValue('+')">+</div>
+                <div class="boxes" onclick="appendValue('-')">-</div>
+                <div class="boxes" onclick="appendValue('*')">*</div>
+                <div class="boxes" onclick="appendValue('/')">/</div>
             </section>
-             <section>
-                <div class="boxes">9</div>
-                <div class="boxes">8</div>
-                <div class="boxes">7</div>
-                <div class="boxes">6</div>
-            </section>
-             <section>
-                <div class="boxes">5</div>
-                <div class="boxes">4</div>
-                <div class="boxes">3</div>
-                <div class="boxes">2</div>
-            </section>
-             <section>
-                <div class="boxes">1</div>
-                <div class="boxes">0</div>
-                <div class="boxes">.</div>
-                <div class="boxes">C</div>
-            </section>
+
             <section>
-                <article>=</article>
+                <div class="boxes" onclick="appendValue('9')">9</div>
+                <div class="boxes" onclick="appendValue('8')">8</div>
+                <div class="boxes" onclick="appendValue('7')">7</div>
+                <div class="boxes" onclick="appendValue('6')">6</div>
             </section>
+
+            <section>
+                <div class="boxes" onclick="appendValue('5')">5</div>
+                <div class="boxes" onclick="appendValue('4')">4</div>
+                <div class="boxes" onclick="appendValue('3')">3</div>
+                <div class="boxes" onclick="appendValue('2')">2</div>
+            </section>
+
+            <section>
+                <div class="boxes" onclick="appendValue('1')">1</div>
+                <div class="boxes" onclick="appendValue('0')">0</div>
+                <div class="boxes" onclick="appendValue('.')">.</div>
+                <div class="boxes" onclick="clearDisplay()">C</div>
+            </section>
+
+            <section>
+                <article onclick="calculate()">=</article>
+            </section>
+
         </div>
     </div>
 
-
     <script>
-        function addition(){
-            let a = Number(prompt("Enter a"));
-            let b = Number(prompt("Enter b"));
-            console.log(`the addition of ${a} and ${b} is ${a + b}`);
+        let display = document.getElementById("display");
+
+        function appendValue(value){
+            display.value += value;
         }
 
-        function substraction(){
-            let a = Number(prompt("Enter a"));
-            let b = Number(prompt("Enter b"));
-            console.log(`the substraction of ${a} and ${b} is ${a - b}`);
+        function clearDisplay(){
+            display.value = "";
         }
-         function multiplication(){
-            let a = Number(prompt("Enter a"));
-            let b = Number(prompt("Enter b"));
-            console.log(`the multiplication of ${a} and ${b} is ${a * b}`);
-        }
-         function division(){
-            let a = Number(prompt("Enter a"));
-            let b = Number(prompt("Enter b"));
-            console.log(`the division of ${a} and ${b} is ${a / b}`);
+
+        function calculate(){
+            try{
+                display.value = eval(display.value);
+            }catch{
+                alert("Invalid Expression");
+            }
         }
     </script>
+
 </body>
 </html>
