@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+
+
+    <script>
+        let user = ["deepika", "raghunath0", "jayashree", "niki"]
+        console.log(user)
+        let user1 = new Array("deepika", "raghunath0", "jayashree", "niki")
+        console.log(user1)
+
+        // --------------> array methods <----------------
+        let players = ["sachin", "dhoni", "virat", "rohit"]
+        console.log(players)
+
+        players.push("hardik")
+        console.log(players)
+
+        players.unshift("suresh")
+        console.log(players)
+
+        players.pop()
+        console.log(players)
+
+        players.shift()
+        console.log(players)
+
+        players.splice(2, 1, "yuvraj")
+        console.log(players)
+
+        // ---------------> destructuring array <----------------
+
+        let user2 = ["deepika", 22, "aiml", "gulbarga"]
+        let [name, age, dept, city] = user2
+        console.log(name)
+        console.log(age)
+        console.log(dept)
+        console.log(city)
+
+
+
+        // --------------->looping through array <----------------
+        // -------------->for in loop <----------------
+        let fruits = ["apple", "banana", "grapes", "orange"]
+        for (let i in fruits) {
+            console.log(i)
+        }
+
+        // -------------->for of loop <----------------
+        for (let i of fruits) {
+            console.log(i)
+        }
+
+        // --------------->for each loop <----------------
+        fruits.forEach((value, index) => {
+            console.log(`${index} : ${value}`)
+        })
+
+        // ---------------->filter() method <----------------
+        let num = [10, 20, 30, 40, 50]
+        let result = num.filter((x) => {
+            return x > 30
+        })
+        console.log(result)
+
+        // ----------------->map() method <----------------    
+        let result1 = num.map((x) => {
+            return x * 2
+        })
+        console.log(result1)
+
+        // ------------------>reduce() method <----------------
+        let result2 = num.reduce((acc, value) => {
+            return acc + value
+        })
+        console.log(result2)
+
+
+        // --------------------->TASK <----------------
+        let products = [18000, 4000, 200, 3000, 400, 1500, 6000, 7500, 7500, 13500]
+        console.log(products)
+        let fileteredProducts = products.filter((x) => {
+            return x > 4000
+        })
+        console.log(fileteredProducts)
+        let getTotal = fileteredProducts.map((x) => {
+            return x + x * 0.18
+        })
+        console.log(getTotal)
+        let total = getTotal.reduce((acc, value) => {
+            return acc + value
+        })
+        console.log(total)
+
+
+        
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
