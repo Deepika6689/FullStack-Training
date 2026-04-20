@@ -1,4 +1,4 @@
-# CHOMBU Database
+# SKILLHUB Database
  
 A multi-module SQL project built with **MySQL**, covering core student management, a travel booking system, and a hospital management system.
  
@@ -42,7 +42,7 @@ Manages doctors, patients, appointments, billing, and medications.
 ## Project Structure
  
 ```
-chombu-sql/
+skillhub-sql/
 ├── schemas/
 │   ├── 01_core_schema.sql       # Student, Branch, Product, Faculty
 │   ├── 02_travel_schema.sql     # Customer, Destination, Packages, Bookings
