@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+        function createBankAccount() {
+            let balance = 0
+            return {
+                deposit: function (amount) {
+                    if (amount <= 0) {
+                        alert("invalid amount")
+                    } else {
+                        balance = amount + balance
+                        console.log(`deposited amount :${amount},new balance:${balance}`);
+                    }
+                },
+                withdraw: function (amount) {
+
+                    if (amount <= 0) {
+                        alert("invalid amount")
+                    } else if (amount > balance) {
+                        alert("insufficient balance")
+                    } else {
+                        balance = balance - amount
+                        console.log(`withdraw:${amount},current balance:${balance}`);
+                    }
+
+
+                }
+
+            }
+        }
+        let deepika = createBankAccount()
+        // deepika.deposit(5000)
+        // deepika.deposit(1500)
+        // deepika.withdraw(500)
+        // deepika.withdraw(1500)
+        deepika.deposit(10000)
+        deepika.deposit(5000)
+        deepika.withdraw(3000)
+        deepika.withdraw(2000)
+
+    </script>
+</body>
+
+</html>
