@@ -11,6 +11,7 @@
 
 
     <script>
+        // ---------------->1--------------
         function createBankAccount() {
             let balance = 0
             return {
@@ -47,6 +48,32 @@
         deepika.deposit(5000)
         deepika.withdraw(3000)
         deepika.withdraw(2000)
+
+        // ------------->output<----------------
+        // deposited amount: 10000, new balance: 10000
+        // closure.html: 22 deposited amount: 5000, new balance: 15000
+        // closure.html: 33 withdraw: 3000, current balance: 12000
+        // closure.html: 33 withdraw: 2000, current balance: 10000
+
+
+        // -------------->2--------------
+        function outer() {
+            let count = 0
+            function inner() {
+                count++
+                console.log(count);
+
+            }
+            return inner
+        }
+        let counter = outer()
+        counter()//1
+        counter()//2
+
+        // -------------->output<----------------
+        // 1
+        // 2
+
 
     </script>
 </body>
